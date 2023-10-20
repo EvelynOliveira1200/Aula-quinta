@@ -1,0 +1,37 @@
+#container{
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 500px 500px;
+    grid-template-areas: 
+    "produto1 produto2 produto3"
+    "produto4 produto5 produto6"
+    ;
+}
+.box{
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border: 1px solid #7a7a7a;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.janela1{
+    grid-area: produto1;
+}
+.janela2{
+    grid-area: produto2;
+}
+.janela3{
+    grid-area: produto3;
+}
+.janela4{
+    grid-area: produto4;
+}
+.janela5{
+    grid-area: produto5;
+}
+.janela5{
+    grid-area: produto6;
+}
+
